@@ -19,46 +19,36 @@
 # -------------------------------------
 main:
   - identifier: home
-    name: 首页
+    name: ホーム
     pageRef: /
     pre: home
     weight: 1
   - identifier: about
-    name: 关于
+    name: 概要
     pageRef: /about
     pre: user
     weight: 2
-  - identifier: flinks
-    name: 友情链接
-    pageRef: /flinks
-    pre: thumbs-up
-    weight: 3
   - identifier: example
-    name: 语法示例
+    name: 使用例
     pre: angles-down
-    weight: 4
+    weight: 3
   - identifier: syntax
-    name: 语法高亮
+    name: 例
     pageRef: /post/09-syntax-highlighting
     weight: 1
     parent: example
   - identifier: math
-    name: 数学公式
+    name: 公式
     pageRef: /post/10-math-formula
     weight: 2 
     parent: example
   - identifier: flow-charts
-    name: 流程图
+    name: フローチャート
     pageRef: /post/11-mermaid-charts
     weight: 3
     parent: example
   - identifier: archives
-    name: 归档
+    name: 履歴
     pageRef: /archives
     pre: archive
-    weight: 5
-  - identifier: commonweal
-    name: 公益 404
-    pageRef: /404.html
-    pre: heartbeat
-    weight: 6
+    weight: 4

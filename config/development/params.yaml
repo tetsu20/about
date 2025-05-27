@@ -1,7 +1,7 @@
 yearFormat: "2006"
 monthFormat: "01-02"
 dateFormat: "2006-01-02"
-timeFormat: "2006-01-02T15:04:05-07:00 CST"
+timeFormat: "2006-01-02T15:04:05-07:00 JST"
 
 sidebar:
   position: right

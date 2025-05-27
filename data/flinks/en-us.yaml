@@ -18,20 +18,12 @@
       timeout: 2
       visible: true
 
-    - name: Fanmeng Star Dust Space Station
-      desc: Even ordinary people have their own dreams!
-      avatar: https://elkan1788.github.io/imgs/avatar.png
-      link: https://lisenhui.cn
-      timeout: 2
-      visible: true
-
-    
-- FLinksTitle: Hugo NexT Fan Groups
-  FLinksDesc: Exciting presentation from Hugo NexT theme enthusiasts!
+- FLinksTitle: tetsu20 Link
+  FLinksDesc: Links related to the page owner.
   FLinksList:
-    - name: Ahaji
-      desc: The first Hugo NexT loyal fan user on the entire network!
-      avatar: https://a.happy2008.top/imgs/stayhome-small.png
-      link: https://a.happy2008.top/
+    - name: GitHub
+      desc: GitHub profile of the tetsu20.
+      avatar: https://tetsu20.github.io/imgs/avater.png
+      link: https://tetsu20.github.io
       timeout: 2
       visible: true

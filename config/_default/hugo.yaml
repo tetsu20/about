@@ -15,14 +15,14 @@
 baseURL: /
 # 站点标题
 # Website title
-title: Hugo NexT
+title: tetsu20 ABOUT
 # 主题名称
 # Theme name
 theme: hugo-theme-next
 # 站点默认的语言和代码
 # Default language & code for website
-defaultContentLanguage: zh-cn
-languageCode: zh-CN
+defaultContentLanguage: ja-JP
+languageCode: ja-JP
 # 是否包含中文，日语，韩文
 # Whether contains Chinese, Japanese and Korean
 hasCJKLanguage: true

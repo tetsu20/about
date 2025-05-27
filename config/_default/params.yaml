@@ -12,7 +12,7 @@ mainSections: ["post"]
 yearFormat: "2006"
 monthFormat: "01月02日"
 dateFormat: "2006年01月02日"
-timeFormat: "2006年01月02日 15:04:05 CST"
+timeFormat: "2006年01月02日 15:04:05 JST"
 
 # 页面模式
 # Schemes
@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: tetsu20 ABOUT
+subtitle: 自分のことを記載する場所
+description: 学生
+keywords: Hugo,NexT
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -87,7 +87,7 @@ openGraph:
 # Enable / Disable menu icons & animation / item badges.
 menuSets:
   icons: true
-  transition: true
+  transition: false
   badges: true
 
 
@@ -162,9 +162,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
-  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  social0: Github || https://github.com/tetsu20 || fab fa-github
+  social1: E-Mail || mailto:takahashi@sec.inf.shizuoka.ac.jp || fa fa-envelope
+  #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -195,18 +195,18 @@ linksSets:
   icon: fa fa-globe
   # 显示标题
   # Show title
-  title: 友情链接
+  title: 外部リンク
   # 可选值： block | inline
   # Available values: block | inline
   layout: inline
 
-# 友情链接地址
+# 外部リンク
 # 用法： `Key: 显示名称 || 链接地址`
 # Links of your friends
 # Usage: `Key: name || permalink`
 links: 
   link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  link1: DeepL || https://www.deepl.com/ja/translator
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -267,7 +267,7 @@ footer:
   # Beian ICP and gongan information for Chinese users. 
   # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     # ICP 备案的具体信息
     icp: 粤ICP备 18047355-1 号
     # 公安网备的省份简称
@@ -278,10 +278,10 @@ footer:
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
-    title: 提供CDN/云资源支持
+    title: CDN/クラウドリソースに関するサポートを提供する
     # 供应商列表，请将带有图标的供应商放在前面
     # Vendors list, remember that who with logo image need put in top.
     list:
@@ -290,10 +290,6 @@ footer:
           url: /imgs/vendors/vercel.svg
           width: 50
         link: https://vercel.com
-      - name: 又拍云
-        image: 
-          url: /imgs/vendors/upyun.png
-          width: 43
         link: https://upyun.com
       - name: Github
         link: https://github.com
@@ -391,21 +387,21 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed 
   # in every article by default.
-  enable: true
+  enable: false
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
-  animation: true
+  animation: false
   # 捐赠信息的描述，支持 HTML 语法
   # Comment for donate and support HTML syntax
-  comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
+  comment: '<i class="fa-solid fa-mug-hot"></i>コーヒー一杯奢ってください ヾ(^▽^*)))'
   # 捐赠方式
   # 用例： `名称:图像地址`
   # Donate type
   # Usage: `name:image url`
   reward:
-    wechatpay: /imgs/wechat-pay.png
-    alipay: /imgs/ali-pay.png
-    #paypal: /images/paypal.png
+    #wechatpay: /imgs/wechat-pay.png
+    #alipay: /imgs/ali-pay.png
+    paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 
 # 提供其它订阅站点文章的方式
@@ -521,7 +517,7 @@ githubBanner:
   enable: true
   # 你的 Github 仓库地址
   # Your repository url on Github.
-  permalink: https://github.com/hugo-next
+  permalink: https://github.com/tetsu20
   # 关注说明
   # Show this title when cursor move on.
   title: Follow me on GitHub
@@ -720,16 +716,16 @@ comments:
 # Waline(2) 与 Waline3 无法兼容只能是二选一
 # Waline3 采用的是ES模块开发，需要更高版本的浏览器才能支持，如考虑兼容性建议可优先选用Waline2
 waline3:
-  placeholder: "请文明发言哟 ヾ(≧▽≦*)o 可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄 (Window系统：Win+.，Mac系统：Control+Command+Space)"
-  sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
+  placeholder: "ショートカットキーを使用して絵文字を使うことができます：😀😄😁🥳👻👽👀🚄 (Window系统：Win+.，Mac系统：Control+Command+Space)"
+  sofa: "ご意見がある方はどうぞ"
   emoji: false
   search: true
   imgUploader: false
   wordLimit: 200
   requiredMeta: ['nick', 'mail']
   reaction: true
-  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-  reactionTitle: "你认为这篇文章怎么样？"
+  reactionText: [ '良い', '良くない', 'すごい', 'すごくない', 'うーん', '眠くなる']
+  reactionTitle: "この記事はどうでしたか？"
   serverURL: https://walinejs.comment.lithub.cc
 
 # Artalk 评论插件
